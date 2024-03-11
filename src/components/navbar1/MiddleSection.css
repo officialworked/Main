@@ -1,0 +1,120 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:30px;
+  padding: 5px 10px; /* Adjust padding for spacing */
+margin: 0 !important;
+}
+.navbar-left {
+  font-size: 1.5rem;
+  padding: 5px 0; /* Adjust padding for spacing */
+}
+.middle-section {
+  display: flex;
+  white-space: nowrap; /* Prevent line break.........s */
+  align-items: center; /* Align items vertically */
+}
+
+.middle-section h2 {
+  margin: 0 20px;
+  color: #ffffff; /* Change heading color */
+  font-size:1.5rem;
+}
+.navbar-right {
+  display: flex;
+  align-items: center; /* Align items vertically */
+
+}
+.navbar-right button {
+  margin: 0 1px; 
+  outline:none;
+  font-size: 1rem;
+  font-weight:bold;
+}
+.btn-primary {
+  background-color: #2bff00; 
+   border: none; /* Remove border */
+  font-size: 1.5rem;
+  color: #121212; /* Change primary button text color */
+  cursor: pointer;
+
+}
+.btn-success {
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  color: #14db36; /* Change success button text color */
+  cursor: pointer;
+
+}
+h1 {
+  color: #14db36; /* Change success button text color */
+  font-size:1.5rem;
+}
+.btn-danger {
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  color: #14db36; /* Change success button text color */
+  cursor: pointer;
+
+}
+
+/* Media query for smaller screens */
+@media (max-width: 168px) {
+  .middle-section h2 {
+    margin-right: 10px;
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+  }
+
+  .navbar-left button {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+  }
+  .navbar-right button {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+  }
+  h1 {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+  }
+}
+@media (min-width: 375px) and (max-width: 413px) {
+  /* Styles for medium smartphone screens */
+  .middle-section h2 {
+      margin-right: 5px;
+      font-size: 0.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .navbar-left button {
+      font-size: 0.5rem; 
+      margin-bottom:16px;
+    }
+    .navbar-right button {
+      font-size: 0.5rem; /* Adjust font size for smaller screens */
+    }
+    h1 {
+      font-size: 0.5rem; /* Adjust font size for smaller screens */
+
+    }
+  }
+
+
+
+/* Media query for smaller screens */
+  @media (min-width: 320px) and (max-width: 374px) {
+    /* Styles for small smartphone screens */
+  .middle-section h2 {
+    margin: 0 6px;
+    font-size: 0.3rem; /* Adjust font size for smaller screens */
+  }
+
+  .navbar-left button {
+    font-size: 0.4rem; 
+    margin-bottom:15px;
+  }
+  .navbar-right button {
+    font-size: 0.4rem; /* Adjust font size for smaller screens */
+  }
+  h1 {
+    font-size: 0.4rem; /* Adjust font size for smaller screens */
+
+  }
+}

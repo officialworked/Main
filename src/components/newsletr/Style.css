@@ -1,0 +1,44 @@
+.subscribe {
+  width: 1150px;
+  border: 1px solid #52ff00;
+  justify-content: center;
+  text-align: center;
+  margin: 50px auto; 
+  border-radius:10px;
+}
+.subscribe > h2 {
+  font-size: 35px;
+  color: white;
+  font-weight:bold;
+  margin: 25px auto 10px auto;
+}
+.subscribe > p {
+  font-size: 22.5px;
+  color: white;
+  margin: 22px 95px;
+}
+.input-field {
+  width: 450px;
+  font-family: Orbitron;
+  padding: 15px;
+  font-size:20px;
+  font-weight:bold;
+  border: 2px solid #43e127;
+  background-color: #000406;
+  border-radius:10px;
+  text-align:center;
+}
+.btn-sub {
+  width: 200px;
+  font-family: Orbitron;
+  padding: 15px;
+  font-size:20px;
+  font-weight:bold;
+  background-color: #43e127;
+  border: 2px solid #43e127;
+  margin-bottom: 10px;
+  margin-left:-23px;
+  border-radius:10px;
+  font-weight:bold;
+  color:#000000;
+}

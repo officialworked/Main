@@ -1,0 +1,144 @@
+  .main_container {
+    width: 1150px;
+    background-color: black;
+    display: flex;
+    margin: 15px auto; /* Center the container horizontally and set top and bottom margins to 150px */
+    border: 1px solid #52FF00;
+    border-radius:10px;
+  }
+  
+  
+  
+  
+  .cont {
+    height:193px;
+    background-color:;
+    width:216px;
+    margin:34px 29px 34px 30px;
+    border-radius:10px;
+    border: 1px solid #52FF00;
+  
+  } 
+  .cont1 {
+    height:193px;
+    background-color:#0B0B0B;
+    width:832px;
+    margin:34px 33px 34px 29px;
+    border-radius:10px;
+      border: 1px solid #52FF00;
+    display:block;
+    flex-direction: row;
+      justify-content: space-between;
+  
+  }
+  
+  .name {
+    height:40px;
+    width:800px;
+    margin:19px 25px 0 20px; 
+    color:#ffffff;
+      display: flex; /* Use flexbox */
+      align-items: center; /* Align items vertically centered */
+      justify-content: flex-start; /* Align items to the start (left) */
+  
+  }	
+  .name.left{
+      height:41px;
+          width:100px;
+      color: white;
+  
+  }
+  
+  .name .btn {
+    width:333px;
+    height:41px;
+    margin: 0 8px 0 215px; /* Adjust as per your preference */
+  
+  }
+  .btn button{
+      background-color:#52FF00;
+      width:108px;
+      height:41px;
+      border-radius:10px; 
+      font-weight:bold;
+      color:#000000;
+      font-size:20px;
+      font-family: Orbitron, sans-serif;
+  
+  }
+  .btn button.mark{
+    background-color:#9747FF
+  }
+  .name .icon {
+    width:138px;
+    height:40px;
+    margin: 0 3px 0 22px; /* Adjust as per your preference */
+  
+  
+  }	
+  .icon button{
+    background-color:#52FF00;
+      width:40px;
+       height:41px;
+       border-radius:10px; 
+       font-weight:bold;
+       color:#000000;
+       font-size:10px;
+       font-family: Orbitron, sans-serif;
+  }
+  
+  .para {
+    height:38px;
+    width:670px;
+    margin:11px 25px 0 25px; 
+    color:rgba(255, 255, 255, 0.7);
+    font-weight:bold;
+  }
+  
+  .vote {
+    background-color: #1E1E1E;
+    height: 57px;
+    width: 800px;
+    border-radius: 10px;
+    margin: 11px 25px 0 25px;
+    display: flex;
+  }
+  
+  .column1,
+  .column2,
+  .column3,
+  .column4,
+  .column5,
+  .column6 {
+    flex: 1;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+    margin: 0 5px; /* Add margin to the left and right of each column */
+  }
+  
+   .row{
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    color: #52FF00;
+    font-size:18px; /* Change only the font size of the rows */
+    margin: 5px 0; /* Add margin to the top and bottom of each row */
+  }
+  .row1{
+      color: #9747FF;
+      padding: 2px;
+      text-align: center;
+        font-weight: bold;
+        font-size:18px; /* Change only the font size of the rows */
+        margin: 5px 0; /* Add margin to the top and bottom of each row */
+  }
+  .row2{
+      color: #F40075;
+      padding: 2px;
+      text-align: center;
+        font-weight: bold;
+        font-size:18px; /* Change only the font size of the rows */
+        margin: 5px 0; /* Add margin to the top and bottom of each row */
+  }

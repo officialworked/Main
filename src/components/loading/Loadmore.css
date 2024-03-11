@@ -1,0 +1,14 @@
+.load {
+  width: 1150px;
+  background-color: #52ff00;
+  justify-content: center;
+  text-align: center;
+  margin: 15px auto; /* Center the container horizontally and set top and bottom margins to 150px */
+  border-radius:10px;
+}
+.load > h2 {
+  padding: 10px;
+  font-family: Orbitron, sans-serif;
+  color:#00000;
+}
+ 

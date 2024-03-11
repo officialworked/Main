@@ -1,0 +1,148 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo {
+  margin-left: 20px; /* Add margin to the left of the logo */
+  font-size:40px;
+  color: #ffff; /* Change success button text color */
+  
+}
+.logo {
+  text-align: center;
+  text-shadow: 0 0 0.6px #11ff00, 0 0 1.2px #1eff00, 0 0 1.8px #2bff00,
+    0 0 2.4px #38ff00, 0 0 3px #45ff00, 0 0 3.6px #52ff00, 0 0 4.2px #5fff00,
+    0 0 4.8px #6cff00, 0 0 5.4px #79ff00, 0 0 6px #86ff00;
+  margin-left: 20px;
+  font-weight: 800;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  gap: 20px;
+}
+ .search-input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  gap: 20px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  width: 100%;
+  height: 2em; /* Set the same height as the search icon */
+padding: 0 0 0 20px; /* Adjust left padding as needed IN SEARCH BOX */
+}
+
+.search-d {
+  height:2em;
+  width: 45px;
+  aspect-ratio: 1.45;
+  object-fit: cover;
+
+}
+.search-icon{
+    cursor: pointer;
+    font-size:25px;
+    opacity:0.4;
+    padding:6px;
+    object-fit: cover;
+    cursor: pointer;
+    color: #52FF00;
+    padding:9px 7px 0;
+    object-fit: cover;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  background-color: #00ff11; 
+  /* Change background color */
+
+}
+ .plus-icon {
+  color: #0f0f0f; /* Example: Change the color of the icon */
+  font-size: 24px; /* Example: Change the size of the icon */margin-left:12px;
+ cursor: pointer; /* Change cursor to pointer */
+
+}
+.submit-button {
+  padding: 4px; /* Adjust padding */
+  background-color: #00ff11; /* Change background color */
+  color:black; /* Change text color */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Add border radius */
+  font-size: 15px; /* Set font size */
+  font-weight:bold;
+  margin-left: 10px; /* Add margin to the left */
+  width:75px;
+
+}
+
+.submit-button:hover {
+  background-color: #00ff11; /* Change background color on hover */
+}
+
+.th-large-icon {
+  margin: 2px 2px; /* Add margin around the icon */
+  font-size: 30px; /* Increase the font size of the icon */
+  color: #3bff05; /* Change background color on hover */
+  border-radius: 4px; /* Add border radius */
+
+}
+@media (max-width: 768px) {
+  .search-input-wrapper {
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+}
+
+   @media (min-width: 320px) and (max-width: 374px) {
+     .logo {
+       font-size: 15px;
+     }
+
+     .search-input {
+       font-size: 16px; /* Adjust font size as needed */
+       padding: 0 0 0 2px; /* Adjust left padding as needed */
+       height: 2em;
+       width: 85px;
+     }
+
+     .search-d {
+       height: 1.8em;
+     }
+
+     .search-icon {
+       font-size: 16px; /* Adjust font size as needed */
+     }
+
+     .plus-icon {
+       font-size: 15px;
+       padding: 8px 1px 8px 0;
+     }
+
+     .submit-button {
+       font-size:4px; /* Set font size */
+        padding: 8px 15px 8px 0;
+        width:3px;
+        margin-right:13px;
+       border-radius:2px;
+     }
+
+     .th-large-icon {
+       font-size:30px;
+     }
+   }
+  
